@@ -1,6 +1,6 @@
 <template>
   <div class="w-16 md:w-56 flex-none border-r bg-gray-100 flex flex-col h-screen">
-    <div class="overflow-y-auto space-y-3">
+    <div class="overflow-y-auto">
       <div class="block md:hidden">
         <ul class="mt-3 text-gray-600">
           <li class="hover:bg-gray-200" v-for="(lgIcon, i) in lgLink" :key="i" @click.prevent="setLink = lgIcon.title">
