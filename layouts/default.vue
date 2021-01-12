@@ -1,7 +1,7 @@
 <template>
-  <div class="font-sans bg-gray-100 antialiased min-h-screen h-full text-gray-900">
+  <div class="flex flex-col font-sans antialiased text-gray-900 min-h-screen h-screen bg-gray-100">
     <TheNavBar />
-    <main>
+    <main class="flex-1 flex overflow-y-hidden">
       <Nuxt />
     </main>
   </div>

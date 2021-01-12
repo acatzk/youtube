@@ -1,18 +1,18 @@
 <template>
-  <header>
-    <div class="flex items-center justify-between bg-white shadow-sm px-3 sm:px-8 py-3">
-      <div class="flex items-center space-x-5">
-        <button>
-          <svg class="w-6 h-6 text-gray-700 focus:outline-none" stroke="currentColor" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet"><path xmlns="http://www.w3.org/2000/svg" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 6h16M4 12h16M4 18h16"></path></svg>
-        </button>
-        <span class="flex items-center space-x-1">
-          <svg class="w-6 h-6 text-red-600" fill="currentColor" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet"><path xmlns="http://www.w3.org/2000/svg" d="M21.6 0H2.4A2.41 2.41 0 000 2.4v19.2A2.41 2.41 0 002.4 24h19.2a2.41 2.41 0 002.4-2.4V2.4A2.41 2.41 0 0021.6 0zM7.045 14.465A2.11 2.11 0 009.84 13.42h1.66a3.69 3.69 0 110-1.75H9.84a2.11 2.11 0 10-2.795 2.795zm11.345.845a3.55 3.55 0 01-1.06.63 3.68 3.68 0 01-3.39-.38v.38h-1.51V5.37h1.5v4.11a3.74 3.74 0 011.8-.63H16a3.67 3.67 0 012.39 6.46zm-.223-2.766a2.104 2.104 0 11-4.207 0 2.104 2.104 0 014.207 0z"></path></svg>
-          <span class="font-medium tracking-tighter text-gray-800">Youtube</span>
-        </span>
-      </div>
+  <header class="flex border-b border-gray-200 px-3 sm:px-8 py-3 bg-white">
+    <div class="w-56 flex items-center">
+      <button>
+        <svg class="w-6 h-6 text-gray-700" stroke="currentColor" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet"><path xmlns="http://www.w3.org/2000/svg" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+      </button>
+      <span class="ml-2 flex items-center space-x-1">
+        <svg class="w-6 h-6 text-red-600" fill="currentColor" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet"><path xmlns="http://www.w3.org/2000/svg" d="M21.6 0H2.4A2.41 2.41 0 000 2.4v19.2A2.41 2.41 0 002.4 24h19.2a2.41 2.41 0 002.4-2.4V2.4A2.41 2.41 0 0021.6 0zM7.045 14.465A2.11 2.11 0 009.84 13.42h1.66a3.69 3.69 0 110-1.75H9.84a2.11 2.11 0 10-2.795 2.795zm11.345.845a3.55 3.55 0 01-1.06.63 3.68 3.68 0 01-3.39-.38v.38h-1.51V5.37h1.5v4.11a3.74 3.74 0 011.8-.63H16a3.67 3.67 0 012.39 6.46zm-.223-2.766a2.104 2.104 0 11-4.207 0 2.104 2.104 0 014.207 0z"></path></svg>
+        <span class="font-medium tracking-tighter text-gray-800">Youtube</span>
+      </span>
+    </div>
+    <div class="flex-1 flex items-center justify-end sm:justify-between">
       <div class="hidden sm:block">
         <form class="flex">
-          <input type="text" placeholder="Search" class="border border-gray-400 py-1 px-3 lg:w-128 rounded-l-sm focus:outline-none">
+          <input type="text" placeholder="Search" class="border border-gray-400 py-1 px-3 w-56 md:w-64 lg:w-128 rounded-l-sm focus:outline-none">
           <button @click.prevent class="border-t border-r border-b rounded-r-sm border-gray-400 py-1 px-6 bg-gray-100 text-sm hover:bg-gray-200 transition ease-in-out duration-150 focus:outline-none">
             <svg class="w-5 h-5 text-gray-500" fill="currentColor" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" preserveAspectRatio="xMidYMid meet"><path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
           </button>
