@@ -1,6 +1,6 @@
 <template>
   <a href="#">
-    <img class="object-cover h-32 w-full transition ease-in-out duration-150 opacity-100 hover:opacity-75" src="@/assets/images/avatar.jpg" alt="">
+    <img class="object-cover h-40 sm:h-32 w-full transition ease-in-out duration-150 opacity-100 hover:opacity-75" src="@/assets/images/avatar.jpg" alt="">
     <div class="text-sm leading-tight pt-1">
       <a href="#">PIGGY PIGGY DUDE ON NIGHTMARE MODE!!</a>
     </div>
