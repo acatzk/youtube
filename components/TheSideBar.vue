@@ -1,92 +1,79 @@
 <template>
-  <div class=" w-16 md:w-56 flex-none border-r bg-gray-100 flex flex-col h-screen">
-    <div class="overflow-y-auto space-y-3">
-      <div class="block md:hidden">
-        <ul>
-          <li>
-            <a href="#">
-              
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="hidden md:block">
-        <ul class="py-3 border-b border-gray-200">
-          <li v-for="(link, i) in links" :key="i" @click.prevent="setLink = link.title" >
-            <a  href="#" class="flex items-center space-x-5 hover:bg-gray-200 py-2 transition ease-in-out duration-150">
-              <span class="ml-6" v-html="link.icon" :class="`${link.title === setLink ? 'text-red-600' : 'text-gray-600'}`"></span>
-              <span class="text-sm text-gray-600 font-medium">{{ link.title }}</span>
-            </a>
-          </li>
-        </ul>
-        <div>
-          <span class="text-xs font-medium uppercase tracking-wider text-gray-600 px-5">Library</span>
-          <ul class="py-3 border-b border-gray-200">
-            <li v-for="(link, i) in library" :key="i" @click.prevent="setLink = link.title" >
-              <a  href="#" class="flex items-center space-x-5 hover:bg-gray-200 py-2 transition ease-in-out duration-150">
-                <span class="ml-6" v-html="link.icon" :class="`${link.title === setLink ? 'text-red-600' : 'text-gray-600'}`"></span>
-                <span class="text-sm text-gray-600 font-medium">{{ link.title }}</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <span class="text-xs font-medium uppercase tracking-wider text-gray-600 px-5">Subscriptions</span>
-          <ul class="py-3 border-b border-gray-200">
-            <li v-for="(link, i) in subscriptions" :key="i" @click.prevent="setLink = link.title" >
-              <a  href="#" class="flex items-center space-x-5 hover:bg-gray-200 py-2 transition ease-in-out duration-150 flex-shrink-0">
-                <img class="ml-6 rounded-full object-cover w-6 h-6" :src="link.image" alt="">
-                <span class="text-sm text-gray-600 font-medium">{{ link.title }}</span>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="flex items-center space-x-5 hover:bg-gray-200 py-2 transition ease-in-out duration-150 flex-shrink-0">
-                <span class="ml-6">
-                  <svg class="w-5 h-5" fill="currentColor" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" preserveAspectRatio="xMidYMid meet"><path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-                </span>
-                <span class="text-sm text-gray-600 font-medium">Show 50 more</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <span class="text-xs font-medium uppercase tracking-wider text-gray-600 px-5">more from youtube</span>
-          <ul class="py-3 border-b border-gray-200">
-            <li @click.prevent="setLink = 'YouTube Movies'">
-              <a  href="#" class="flex items-center space-x-5 hover:bg-gray-200 py-2 transition ease-in-out duration-150">
-                <span class="ml-6">
-                  <svg :class="`${'YouTube Movies' === setLink ? 'text-red-600' : 'text-gray-600'}`" class="w-5 h-5" fill="currentColor" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" preserveAspectRatio="xMidYMid meet"><path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm3 2h6v4H7V5zm8 8v2h1v-2h-1zm-2-2H7v4h6v-4zm2 0h1V9h-1v2zm1-4V5h-1v2h1zM5 5v2H4V5h1zm0 4H4v2h1V9zm-1 4h1v2H4v-2z" clip-rule="evenodd"></path></svg>
-                </span>
-                <span class="text-sm text-gray-600 font-medium">YouTube Movies</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <ul class="border-b border-gray-200">
-            <li v-for="(link, i) in more" :key="i" @click.prevent="setLink = link.title">
-              <a  href="#" class="flex items-center space-x-5 hover:bg-gray-200 py-2 transition ease-in-out duration-150">
-                <span class="ml-6" v-html="link.icon" :class="`${link.title === setLink ? 'text-red-600' : 'text-gray-600'}`"></span>
-                <span class="text-sm text-gray-600 font-medium">{{ link.title }}</span>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="pb-16 px-5">
-          <ul class="space-x-1 flex flex-wrap text-xs font-medium text-gray-500">
-            <li v-for="(a, i) in about" :key="i" class="hover:text-gray-600">
-              <a href="#">{{ a }}</a>
-            </li>
-          </ul>
-          <ul class="mt-2 space-x-1 flex flex-wrap text-xs font-medium text-gray-500">
-            <li v-for="(term, i) in terms" :key="i" class="hover:text-gray-600">
-              <a href="#">{{ term }}</a>
-            </li>
-          </ul>
-          <div class="mt-5">
-            <span class="text-gray-500 text-xs font-medium">&copy; 2021 YouTube, LLC</span>
-          </div>
-        </div>
+  <div class="overflow-y-auto space-y-3">
+    <ul class="py-3 border-b border-gray-200">
+      <li v-for="(link, i) in links" :key="i" @click.prevent="setLink = link.title" >
+        <a  href="#" class="flex items-center space-x-5 hover:bg-gray-200 py-2 transition ease-in-out duration-150">
+          <span class="ml-6" v-html="link.icon" :class="`${link.title === setLink ? 'text-red-600' : 'text-gray-600'}`"></span>
+          <span class="text-sm text-gray-600 font-medium">{{ link.title }}</span>
+        </a>
+      </li>
+    </ul>
+    <div>
+      <span class="text-xs font-medium uppercase tracking-wider text-gray-600 px-5">Library</span>
+      <ul class="py-3 border-b border-gray-200">
+        <li v-for="(link, i) in library" :key="i" @click.prevent="setLink = link.title" >
+          <a  href="#" class="flex items-center space-x-5 hover:bg-gray-200 py-2 transition ease-in-out duration-150">
+            <span class="ml-6" v-html="link.icon" :class="`${link.title === setLink ? 'text-red-600' : 'text-gray-600'}`"></span>
+            <span class="text-sm text-gray-600 font-medium">{{ link.title }}</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <span class="text-xs font-medium uppercase tracking-wider text-gray-600 px-5">Subscriptions</span>
+      <ul class="py-3 border-b border-gray-200">
+        <li v-for="(link, i) in subscriptions" :key="i" @click.prevent="setLink = link.title" >
+          <a  href="#" class="flex items-center space-x-5 hover:bg-gray-200 py-2 transition ease-in-out duration-150 flex-shrink-0">
+            <img class="ml-6 rounded-full object-cover w-6 h-6" :src="link.image" alt="">
+            <span class="text-sm text-gray-600 font-medium">{{ link.title }}</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="flex items-center space-x-5 hover:bg-gray-200 py-2 transition ease-in-out duration-150 flex-shrink-0">
+            <span class="ml-6">
+              <svg class="w-5 h-5" fill="currentColor" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" preserveAspectRatio="xMidYMid meet"><path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+            </span>
+            <span class="text-sm text-gray-600 font-medium">Show 50 more</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <span class="text-xs font-medium uppercase tracking-wider text-gray-600 px-5">more from youtube</span>
+      <ul class="py-3 border-b border-gray-200">
+        <li @click.prevent="setLink = 'YouTube Movies'">
+          <a  href="#" class="flex items-center space-x-5 hover:bg-gray-200 py-2 transition ease-in-out duration-150">
+            <span class="ml-6">
+              <svg :class="`${'YouTube Movies' === setLink ? 'text-red-600' : 'text-gray-600'}`" class="w-5 h-5" fill="currentColor" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" preserveAspectRatio="xMidYMid meet"><path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" d="M4 3a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V5a2 2 0 00-2-2H4zm3 2h6v4H7V5zm8 8v2h1v-2h-1zm-2-2H7v4h6v-4zm2 0h1V9h-1v2zm1-4V5h-1v2h1zM5 5v2H4V5h1zm0 4H4v2h1V9zm-1 4h1v2H4v-2z" clip-rule="evenodd"></path></svg>
+            </span>
+            <span class="text-sm text-gray-600 font-medium">YouTube Movies</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div>
+      <ul class="border-b border-gray-200">
+        <li v-for="(link, i) in more" :key="i" @click.prevent="setLink = link.title">
+          <a  href="#" class="flex items-center space-x-5 hover:bg-gray-200 py-2 transition ease-in-out duration-150">
+            <span class="ml-6" v-html="link.icon" :class="`${link.title === setLink ? 'text-red-600' : 'text-gray-600'}`"></span>
+            <span class="text-sm text-gray-600 font-medium">{{ link.title }}</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="pb-16 px-5">
+      <ul class="space-x-1 flex flex-wrap text-xs font-medium text-gray-500">
+        <li v-for="(a, i) in about" :key="i" class="hover:text-gray-600">
+          <a href="#">{{ a }}</a>
+        </li>
+      </ul>
+      <ul class="mt-2 space-x-1 flex flex-wrap text-xs font-medium text-gray-500">
+        <li v-for="(term, i) in terms" :key="i" class="hover:text-gray-600">
+          <a href="#">{{ term }}</a>
+        </li>
+      </ul>
+      <div class="mt-5">
+        <span class="text-gray-500 text-xs font-medium">&copy; 2021 YouTube, LLC</span>
       </div>
     </div>
   </div>
