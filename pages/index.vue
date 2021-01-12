@@ -1,8 +1,6 @@
 <template>
   <div class="flex-1 flex">
-    <div class="w-56 flex-none border-r bg-gray-100 flex flex-col h-screen">
-      <TheSideBar />
-    </div>
+    <TheSideBar />
     <div class="flex-1 overflow-y-auto bg-white">
       <div class="container mx-auto max-w-7xl py-6 px-6">
 
