@@ -1,11 +1,75 @@
 <template>
-  <div class="flex-1 flex overflow-y-hidden">
-    <div class="w-56 flex-none border-r bg-gray-200 flex flex-col h-screen">
+  <div class="flex-1 flex">
+    <div class="w-56 flex-none border-r bg-gray-100 flex flex-col h-screen">
       <TheSideBar />
     </div>
-    <div class="flex-1 overflow-y-auto">
-      <div class="container mx-auto max-w-6xl">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci doloremque quas ipsa fugiat recusandae iusto omnis asperiores mollitia eos, corrupti atque ut vel expedita eum qui tempora itaque ratione laudantium dolor quod voluptatem? Soluta incidunt maiores, suscipit iste cum itaque debitis, nesciunt velit, cumque rerum voluptatem atque sequi! Dolorem unde porro praesentium voluptatem laboriosam repellat suscipit delectus accusamus ea dolore natus laudantium voluptas perferendis temporibus, molestiae nesciunt hic nostrum explicabo repudiandae deleniti inventore exercitationem assumenda? Odio, officia ipsa pariatur eos similique quo sapiente qui in cum ab perferendis unde hic possimus laudantium explicabo voluptatibus id nisi aliquid alias vel nesciunt deleniti fugiat nostrum? Dolor sequi ex eos repellendus nostrum cumque itaque perspiciatis omnis unde optio earum iusto, vitae odio molestias! Quae, minus? Ullam eius maiores, sequi fugit reprehenderit iusto reiciendis error sit sunt optio ea pariatur necessitatibus impedit quasi quibusdam dicta nobis blanditiis ipsa autem eligendi cum. Temporibus provident exercitationem numquam illum laboriosam, placeat rem iure enim dolore nobis doloribus iste similique voluptatibus dolorum, veniam harum voluptate aut adipisci possimus soluta reprehenderit debitis quidem nemo! Fuga saepe a, totam architecto, debitis illo impedit, quia rerum ullam temporibus dolor. Ut error fugiat, dolor in accusantium laborum. Quae laborum animi aspernatur autem nam provident nulla doloremque dolor laudantium! Eius neque earum deleniti tempore magnam quo nisi sequi vel sint, reiciendis hic. Culpa, illum. Consequuntur at delectus quae. Ipsa itaque aut recusandae, qui odit totam ut repellat ab sunt corrupti dolores blanditiis eveniet accusantium dolorum nobis voluptatem alias consectetur ullam at. Saepe iste consequatur impedit nisi reiciendis optio excepturi eius repudiandae, recusandae odit in, vitae numquam ullam delectus quos. Unde maxime veniam rerum minus et eveniet! In debitis atque sequi eos quod recusandae. Temporibus, harum quis a qui totam nostrum nobis aspernatur, expedita ut eaque quo excepturi! Dolore amet est ipsam numquam vel quisquam exercitationem praesentium doloremque veniam in molestiae voluptatibus iure nostrum, optio illo cumque sunt nobis sit ipsa! Expedita quidem quam veniam deserunt provident voluptatem iure nihil eos dolorem tempore? In fugit nostrum laborum facere consequatur minus deleniti ducimus ea reiciendis? Ea impedit ipsa molestias, vitae alias excepturi repellat. Iste sapiente sunt neque odio perferendis dolores repellendus ipsam dolorum, nobis, possimus impedit facere ab aut cum quos asperiores non ea accusamus? Aliquam id eveniet, consectetur reprehenderit ab at aperiam voluptatem culpa vero deleniti explicabo assumenda necessitatibus, iure reiciendis illo impedit obcaecati commodi totam nisi perferendis autem repudiandae quae. Nostrum cupiditate saepe fugiat ab eligendi maxime magnam eos nobis. Deleniti odio voluptates quas maxime. Repudiandae aspernatur ullam dignissimos totam quasi aperiam explicabo ex earum ducimus illum, voluptatibus quisquam maxime, rerum laboriosam. Iure soluta facilis cum quos ipsam veniam debitis, possimus magni illo quod, doloremque vero sunt. Quia maiores ipsam voluptates sequi vel sunt veniam facilis. Aut non recusandae asperiores facilis aliquid, eaque consequuntur quasi accusantium consequatur tenetur culpa eos doloremque vero quod, harum vitae velit accusamus facere tempora. Perspiciatis nihil eligendi necessitatibus quia commodi atque quaerat, voluptatem illo. Sequi, soluta animi. Voluptatem earum tenetur sint nemo maiores, laboriosam magni voluptatibus iste dolor similique sed veniam illo est vitae dolores praesentium? Atque quod exercitationem, modi, hic qui suscipit sequi recusandae deleniti repellat ullam ipsum consectetur quam quis ex. Aliquid beatae quae est dignissimos, itaque architecto ab ullam cumque ut voluptates, in porro iusto magnam quod magni? Magni quam dignissimos officiis recusandae culpa fugiat iure in sapiente, repellendus exercitationem optio deleniti doloribus, ullam fugit perspiciatis cum, aut ea quas blanditiis alias voluptatum temporibus dolore sint quaerat. Eius dolorum nobis, tempore omnis sunt sequi dolor commodi numquam vero facere, optio, necessitatibus molestias ab fugiat officiis rem culpa eum. Necessitatibus cum perferendis adipisci ipsam pariatur nulla, porro modi maxime explicabo autem aliquam fugiat numquam repudiandae corporis magni reprehenderit provident voluptates itaque eligendi quia inventore laborum aliquid ad. Odit dolorum enim, omnis fuga quibusdam ea, corrupti aliquid ad cumque ratione molestiae, harum iste quo aspernatur laborum aut placeat quis cum excepturi non delectus. Quibusdam non perspiciatis aliquid blanditiis velit natus consequuntur fugiat officiis? Nostrum expedita hic delectus sunt, earum eligendi minus quas exercitationem perspiciatis est deserunt ipsum officiis recusandae ex facilis sed quaerat velit nemo quasi, sint neque natus blanditiis. Animi, eos quis ullam veritatis minus maxime molestiae rerum laudantium facere maiores ad doloribus, dicta eius deserunt vero ut ratione possimus doloremque nisi? Reprehenderit libero aut, esse explicabo labore ex iure odit consequuntur deserunt dolore hic quia adipisci veritatis tenetur quasi! Maxime atque, corporis veniam non laborum quo, dolor velit reprehenderit in, maiores quos molestiae corrupti. Officia aspernatur assumenda eligendi quia nihil vel omnis, harum id a, ab in asperiores, dicta illo. Ducimus magnam iure adipisci harum enim? Optio labore fugit placeat culpa maxime nihil quos, nesciunt tempora voluptatum error dolore in ratione veniam vitae, tenetur sapiente illo, mollitia totam necessitatibus praesentium consequatur quasi. Minima recusandae aperiam iusto consequatur, sapiente unde esse cum nostrum, quia fugiat reiciendis expedita animi laudantium saepe culpa ipsa ipsam veritatis eum. Eveniet doloremque perferendis rem, quidem nisi optio consectetur earum explicabo nemo. Provident architecto libero minus optio possimus in! Ab, explicabo repudiandae exercitationem nobis doloribus dicta labore vel sit possimus consequatur nisi quia quos quisquam autem quis, unde beatae facilis eveniet. Facere tempora amet itaque vitae nostrum! Harum nobis voluptas voluptate facilis eius, libero reiciendis tempora rem vel quidem cupiditate exercitationem odit recusandae repudiandae placeat laborum sint culpa beatae architecto ea non expedita! Vitae quibusdam, soluta, inventore nulla eligendi consectetur repellat laborum ipsam minima minus eos voluptate fuga accusamus dicta? Non maxime corrupti voluptatem suscipit, perspiciatis provident laudantium placeat repellat asperiores laborum laboriosam aspernatur, architecto hic ex veniam accusamus dolores. Expedita, tempora optio hic omnis ullam modi maiores perspiciatis mollitia velit eius. Laboriosam consequatur sit delectus recusandae, ut reprehenderit totam. Soluta voluptate magni aperiam maxime quod ullam laborum molestias amet totam autem similique itaque modi natus, reprehenderit numquam sapiente. Voluptates exercitationem eveniet omnis voluptatibus tempora qui sequi facere dolores, quia harum maxime repellat dicta quis voluptas officia saepe perferendis culpa hic cumque cum nihil eius cupiditate. Ipsam repellendus tenetur iure praesentium nostrum ipsum non rem, a maiores tempora reiciendis esse culpa laborum!
+    <div class="flex-1 overflow-y-auto bg-white">
+      <div class="container mx-auto max-w-7xl py-6 px-6">
+
+        <div class="font-semibold mb-5 text-gray-700">Recommended</div>
+        <div class="grid grid-cols-6 gap-2 mb-6 border-b">
+          <div v-for="i in 18" :key="i">
+            <PostCard />
+          </div>
+          <div class="py-4">
+            <a href="#" class="uppercase text-sm font-medium text-gray-500 hover:text-gray-600">Show more</a>
+          </div>
+        </div>
+
+        <div class="flex justify-between items-center mb-6">
+          <div class="flex items-center">
+            <a href="#" class="flex-shrink-0">
+              <img class="rounded-full object-cover border w-8 h-8" src="@/assets/images/avatar.jpg" alt="avatar">
+            </a>
+            <a class="ml-2 font-medium" href="#">Angryboy</a>
+          </div>
+          <a href="#">
+            <div class="text-2xl font-light text-gray-600 hover:text-gray-800">&times;</div>
+          </a>
+        </div>
+        <div class="grid grid-cols-6 gap-2 mb-6 border-b pb-6">
+          <div v-for="i in 6" :key="i">
+            <PostCard />
+          </div>
+        </div>
+
+
+        <div class="flex justify-between items-center mb-6">
+          <div class="flex items-center">
+            <a href="#" class="flex-shrink-0">
+              <img class="rounded-full object-cover border w-8 h-8" src="@/assets/images/avatar.jpg" alt="avatar">
+            </a>
+            <a class="ml-2 font-medium" href="#">angrybird</a>
+          </div>
+          <a href="#">
+            <div class="text-2xl font-light text-gray-600 hover:text-gray-800">&times;</div>
+          </a>
+        </div>
+        <div class="pb-6">
+          <a href="#" class="flex">
+            <div class="flex-shrink-0">
+              <img class="object-cover w-48 h-32 transition ease-in-out duration-150 opacity-100 hover:opacity-75" src="@/assets/images/avatar.jpg" alt="">
+            </div>
+            <div class="flex-1 ml-4 flex flex-col">
+              <div class="text-sm leading-tight pt-1">
+                <a href="#">Machine Learning Tutorial for Beginners - USING JAVASCRIPT!</a>
+              </div>
+              <div class="text-sm mt-1 leading-tight max-w-128 w-full">
+                <a href="#" class="text-gray-600 hover:text-gray-800 flex items-center">
+                  <span>DashieGames</span>
+                  <span>
+                    <svg class="pl-1 w-4 h-4" fill="currentColor" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" preserveAspectRatio="xMidYMid meet"><path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg> 
+                  </span>
+                  <span class="ml-2 text-sm text-gray-600">618k views &middot; 2 days ago</span>
+                </a>
+                <div class="mt-3 text-gray-600 leading-snug tracking-wide">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam quisquam mollitia laboriosam porro esse, magnam et. Illum, itaque, quos odit sit aperiam ea id expedita aut officiis totam voluptas. Quibusdam.
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
       </div>
     </div>
   </div>
@@ -19,7 +83,8 @@
       }
     },
     components: {
-      TheSideBar: () => import('@/components/TheSideBar')
+      TheSideBar: () => import('@/components/TheSideBar'),
+      PostCard: () => import('@/components/PostCard')
     }
   }
 </script>
