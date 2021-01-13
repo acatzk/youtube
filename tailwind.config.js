@@ -10,6 +10,7 @@ module.exports = {
         'red-youtube': '#ff0000'
       },
       width: {
+        '18': '4.5rem',
         '60': '15rem',
         '128': '32rem',
       },
