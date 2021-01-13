@@ -24,7 +24,17 @@
       </div>
     </div>
     <div class="flex items-center">
-      <ul class="flex items-center space-x-2">
+      <ul class="flex items-center space-x-0 sm:space-x-1 md:space-x-2">
+        <li class="block sm:hidden">
+          <button class="focus:outline-none rounded-full p-2 hover:bg-gray-200 transition ease-in-out duration-150">
+            <svg class="w-6 h-6 fill-current text-gray-700" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" ><path d="M0 0h24v24H0z" fill="none"/><path d="M12 14c1.66 0 2.99-1.34 2.99-3L15 5c0-1.66-1.34-3-3-3S9 3.34 9 5v6c0 1.66 1.34 3 3 3zm5.3-3c0 3-2.54 5.1-5.3 5.1S6.7 14 6.7 11H5c0 3.41 2.72 6.23 6 6.72V21h2v-3.28c3.28-.48 6-3.3 6-6.72h-1.7z"/></svg>
+          </button>
+        </li>
+        <li class="block sm:hidden">
+          <button class="focus:outline-none rounded-full p-2 hover:bg-gray-200 transition ease-in-out duration-150">
+            <svg class="w-6 h-6 text-gray-700" fill="currentColor" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" preserveAspectRatio="xMidYMid meet"><path xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd"></path></svg>
+          </button>
+        </li>
         <li>
           <button class="focus:outline-none rounded-full p-2 hover:bg-gray-200 transition ease-in-out duration-150">
             <svg class="w-6 h-6 text-gray-700 rounded-full fill-current" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"><path d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4zM14 13h-3v3H9v-3H6v-2h3V8h2v3h3v2z" class="style-scope yt-icon"></path></svg>
