@@ -7,9 +7,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        'red-youtube': '#ff0000'
       },
       width: {
-        '128': '32rem'
+        '60': '15rem',
+        '128': '32rem',
       },
       maxWidth: {
         '128': '32rem'
