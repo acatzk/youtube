@@ -1,5 +1,5 @@
 <template>
-  <header class="flex items-center justify-between border-b border-gray-300 px-4 py-2 bg-white h-16">
+  <header class="flex items-center justify-between border-b border-gray-300 px-4 bg-white py-1">
     <div class="flex items-center space-x-4">
       <button class="focus:outline-none rounded-full p-2 hover:bg-gray-200 transition ease-in-out duration-150">
         <svg class="w-6 h-6 text-gray-700 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
