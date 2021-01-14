@@ -1,6 +1,6 @@
 <template>
   <div class="w-18 lg:w-60 flex-none bg-white flex flex-col h-screen">
-    <div class="overflow-y-auto">
+    <div class="overflow-y-auto scrollbar">
       <div class="block lg:hidden">
         <ul class="mt-3 text-gray-600">
           <li class="hover:bg-gray-200" v-for="(lgIcon, i) in lgLink" :key="i" @click.prevent="setLink = lgIcon.title">
