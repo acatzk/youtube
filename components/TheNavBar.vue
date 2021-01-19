@@ -11,7 +11,7 @@
     <div class="hidden sm:block">
       <div class="flex items-center justify-center space-x-2 ml-3">
         <form class="flex">
-          <input type="text" placeholder="Search" class="border border-gray-400 py-1 px-3 w-56 md:w-64 lg:w-128 rounded-l-sm focus:outline-none focus:border-blue-700">
+          <input type="text" placeholder="Search" class="border border-gray-400 shadow-inner py-1 px-3 w-56 md:w-64 lg:w-128 rounded-l-sm focus:outline-none focus:border-blue-700">
           <button @click.prevent class="border-t border-r border-b rounded-r-sm border-gray-400 py-1 px-6 bg-gray-100 text-sm hover:bg-gray-200 transition ease-in-out duration-150 focus:outline-none">
             <svg class="w-5 h-5 text-gray-600" fill="currentColor" viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" class="style-scope yt-icon"></path></svg>
           </button>
