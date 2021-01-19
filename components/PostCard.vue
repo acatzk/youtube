@@ -18,9 +18,9 @@
           <img class="w-10 h-10 rounded-full border" :src="post.avatar" alt="avatar">
         </button>
         <div class="w-full mt-1">
-          <span class="font-medium text-sm tracking-wide text-gray-900">
-            {{ `${post.title.length >= 50 ? post.title.slice(0, 50) + '...' : post.title}` }}
-          </span>
+          <div class="font-medium text-sm tracking-wide text-gray-900 clamp-2">
+            {{ post.title }}
+          </div>
           <div class="text-sm mt-2 leading-tight">
             <a href="#" class="text-gray-700 hover:text-gray-800 flex items-center">
               <span>{{ post.channel }}</span>
