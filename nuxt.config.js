@@ -21,7 +21,8 @@ export default {
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
-    '~/plugins/vue-horizontal-list.js'
+    '~/plugins/vue-horizontal-list.js',
+    '~/plugins/vue2-perfect-scrollbar.js'
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
