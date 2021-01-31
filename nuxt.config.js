@@ -1,6 +1,6 @@
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
-  target: 'static',
+  mode: 'universal',
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
@@ -21,8 +21,14 @@ export default {
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [
-    '~/plugins/vue-horizontal-list.js',
-    '~/plugins/vue2-perfect-scrollbar.js'
+    {
+      src: '~/plugins/vue-horizontal-list.js',
+      mode: 'client'
+    },
+    {
+      src: '~/plugins/vue2-perfect-scrollbar.js',
+      mode: 'client'
+    }
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
@@ -38,10 +44,9 @@ export default {
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
-    // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
-    // https://go.nuxtjs.dev/pwa
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    '@nuxtjs/auth-next'
   ],
 
   tailwindcss: {
